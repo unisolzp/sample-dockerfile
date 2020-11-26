@@ -1,3 +1,3 @@
-module gitlab.com/snormore/hello
+module github.com/LiamHaworth/go-tproxy
 
 go 1.13
