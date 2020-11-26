@@ -3,6 +3,6 @@ spec:
   services:
   - dockerfile_path: Dockerfile
     git:
-      branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-dockerfile.git
+      branch: squid
+      repo_clone_url: https://github.com/unisolzp/sample-dockerfile.git
     name: sample-dockerfile
