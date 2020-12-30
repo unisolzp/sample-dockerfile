@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-dockerfile
+    repo: unisolzp/sample-dockerfile
   name: sample-dockerfile
