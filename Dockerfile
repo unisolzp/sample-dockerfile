@@ -6,7 +6,7 @@ ENV http_proxy=$all_proxy \
 
 RUN apk add squid
 COPY start.sh /usr/local/bin/
-COPY conf/squid*.conf /etc/squid/
+COPY squid.conf /etc/squid/
 
 RUN chmod +x /usr/local/bin/start.sh
 
