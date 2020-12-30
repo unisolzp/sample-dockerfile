@@ -24,7 +24,7 @@ run() {
 	echo "Starting squid..."
 	prepare_folders
 	initialize_cache
-	exec "$SQUID" -NYCd 1 -f /etc/squid/squid.conf
+	exec "$SQUID" -f /etc/squid/squid.conf
 }
 
 run
