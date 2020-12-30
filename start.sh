@@ -27,4 +27,4 @@ run() {
 	exec "$SQUID" -NYCd 1 -f /etc/squid/squid.conf
 }
 
-hrun
+run
